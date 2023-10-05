@@ -1,0 +1,4 @@
+clc
+clear
+data=xlsread('spss输出相关性表.xlsx');
+d=data(1:2:end,:);
